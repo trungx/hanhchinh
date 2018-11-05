@@ -1,0 +1,24 @@
+{
+    "name": "hanhchinh/hanhchinh",
+    "authors": [
+        {
+            "name": "Trung Hong Ta",
+            "email": "trung2nd@gmail.com",
+            "homepage": "https://trung.ml"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HanhChinh\\HanhChinh\\": "src/",
+            "HanhChinh\\HanhChinh\\Database\\Seeds": "src/database/seeds/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HanhChinh\\HanhChinh\\HanhChinhServiceProvider"
+            ]
+        }
+    }
+}
