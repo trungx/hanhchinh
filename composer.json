@@ -10,7 +10,7 @@
     "autoload": {
         "psr-4": {
             "HanhChinh\\HanhChinh\\": "src/",
-            "HanhChinh\\HanhChinh\\Database\\Seeds": "src/database/seeds/"
+            "HanhChinh\\HanhChinh\\Database\\Seeds\\": "src/database/seeds/"
         }
     },
     "require": {},
